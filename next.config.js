@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath:'/my-portfolio',
+  // basePath:'my-portfolio'
   images: {
-    unoptimized: true,
+    domains: ["ndshake.com.tw","flatquest.se","media.licdn.com","enjoyfresh.com","play-lh.googleusercontent.com","cdn.builder.io"],
   },
 }
 

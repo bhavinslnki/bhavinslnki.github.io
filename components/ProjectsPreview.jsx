@@ -36,7 +36,7 @@ const featuredProjects = [
     title: "PDF Editor",
     description:
       "Developed a Python-based tool for automated PDF cropping and manipulation, optimizing document processing workflows. Implemented functionalities for invoice modification, data extraction, and automatic cropping of PDF documents and pages.",
-    technologies: ["Python", "FastApi", "MySql","SqlAlchemy"],
+    technologies: ["Python", "FastApi", "MySql", "SqlAlchemy"],
     image: "/images/placeholder.svg",
   },
 ];
@@ -66,7 +66,9 @@ export default function ProjectsPreview() {
               className="relative overflow-hidden"
             >
               <Image
-                src={project.image}
+                src={`/my-portfolio/${
+                  project.image ? project.image : "placeholder.svg"
+                }`}
                 alt={project.title}
                 width={400}
                 height={200}

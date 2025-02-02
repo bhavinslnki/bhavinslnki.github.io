@@ -102,7 +102,7 @@ export default function Projects() {
           <Card className="flex flex-col h-full overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer group">
             <div className="relative overflow-hidden">
               <Image
-                src={project.image || "/placeholder.svg"}
+                src={`/my-portfolio${project.image ? project.image : "placeholder.svg"}`}
                 alt={project.title}
                 width={600}
                 height={300}
