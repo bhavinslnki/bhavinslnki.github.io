@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath:'my-portfolio',
+  // basePath:'my-portfolio',
+  assetPrefix: "/my-portfolio",
+
   images: {
-    domains: ["ndshake.com.tw"],
+    unoptimized: true,
   },
 }
 

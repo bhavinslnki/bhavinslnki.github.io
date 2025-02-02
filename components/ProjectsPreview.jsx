@@ -70,6 +70,7 @@ export default function ProjectsPreview() {
                 alt={project.title}
                 width={400}
                 height={200}
+                unoptimized
                 className="object-cover w-full h-48 transition-transform duration-300 hover:scale-105"
               />
             </a>
