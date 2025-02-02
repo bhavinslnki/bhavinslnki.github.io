@@ -66,9 +66,7 @@ export default function ProjectsPreview() {
               className="relative overflow-hidden"
             >
               <Image
-                src={`/my-portfolio/${
-                  project.image ? project.image : "placeholder.svg"
-                }`}
+                src={project.image}
                 alt={project.title}
                 width={400}
                 height={200}
