@@ -16,7 +16,7 @@ export default function Introduction() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary rounded-full blur-2xl opacity-20 animate-pulse"></div>
               <Image
-                src="/my-portfolio/images/bhavin.jpg"
+                src="/images/bhavin.jpg"
                 alt="Bhavin Solanki"
                 width={200}
                 height={200}
