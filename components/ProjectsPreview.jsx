@@ -63,7 +63,7 @@ export default function ProjectsPreview() {
               href={project.website}
               target="_blank"
               rel="noopener noreferrer"
-              className="relative overflow-hidden"
+              className="relative overflow-hidden bg-white flex items-center justify-center"
             >
               <Image
                 src={project.image}
@@ -71,7 +71,7 @@ export default function ProjectsPreview() {
                 width={400}
                 height={200}
                 unoptimized
-                className="object-cover w-full h-48 transition-transform duration-300 hover:scale-105"
+                className="object-contain max-w-[50%] w-full h-48 transition-transform duration-300 group-hover:scale-105"
               />
             </a>
             <CardHeader>
