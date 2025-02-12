@@ -100,13 +100,13 @@ export default function Projects() {
       {projects.map((project) => (
         <Link href={project.website} key={project.slug} target="_blank" rel="noopener noreferrer">
           <Card className="flex flex-col h-full overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer group">
-            <div className="relative overflow-hidden">
+            <div className="relative overflow-hidden bg-white flex items-center justify-center">
               <Image
                 src={project.image}
                 alt={project.title}
                 width={600}
                 height={300}
-                className="object-cover w-full h-48 transition-transform duration-300 group-hover:scale-105"
+                className="object-contain max-w-[50%] w-full h-48 transition-transform duration-300 group-hover:scale-105"
               />
             </div>
             <CardHeader>
