@@ -2,10 +2,17 @@ import React from "react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card"
 
 const experiences = [
+{
+    title: "Software Developer Engineer",
+    company: "Inventam Tech Solution PVT. LTD",
+    period: "Jun 2025 - Present",
+    description:
+      "I work here as a Software Developer, where I primarily work with Node.js and Python. I'm also actively learning how to train new Al models to expand my skills in artificial intelligence ."
+  },
   {
     title: "Software Engineer",
     company: "White Orange Software",
-    period: "Dec 2022 - Present",
+    period: "Dec 2022 - April 2025",
     description:
       " Designed and implemented server-side architectures,scalable backend systems using Node.js and Python, ensuring high performance and reliability for diverse applications. Mentored junior developers and implemented best practices for code quality and testing.Developed and optimized SQL and NoSQL databases, ensuring high performance for data-intensive applications.Streamlined deployment processes by integrating CI/CD pipelines, improving efficiency and reliability.Worked on 10+ projects and used Git for version control, working with different teams to ensure smooth project delivery"
   },
